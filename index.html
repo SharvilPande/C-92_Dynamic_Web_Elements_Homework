@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Math Quiz Login</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="load_users()">
+<center>
+<h1 id="title">Math Quiz</h1>
+<img id="q_mark" src="https://i.gifer.com/4Jo1.gif">
+<img id="logo" src="math_logo.jpg"> 
+<img id="title_banner" src="Banner_Image.png">
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-11 login_div1">
+    <h3 class="text_align blink"><b>Player 1 Sign in</b></h3>
+    <label class="left">Do you want to? <label class="blue">Knock Off</label>&nbsp;<label><b class="green blink">Player 2</b></label></label>
+    <span><i class="fa fa-user fa-lg">&nbsp;&nbsp;<input id="input_1" class="form-control inputs fa fa-user" placeholder="Player 1 Name" type="text"></i></span>
+    <br>
+    <br>
+    <input type="checkbox" id="checkbox_input_1" class="left_2">  
+    <label class="left_2" for="checkbox_input_1">Remember Me</label>
+    <br>
+    <br>
+    <br> 
+</div>
+<br>
+<div class="col-lg-4 col-md-6 col-sm-8 col-xs-11 login_div2">
+    <h3 class="text_align blink"><b>Player 2 Sign in</b></h3>
+    <label class="left">Do you want to? <label class="blue">Knock Off </label>&nbsp;<label class="blink"><b>Player 1</b></label></label>
+    <span><i class="fa fa-user fa-lg">&nbsp;&nbsp;<input class="form-control inputs fa fa-user" placeholder="Player 2 Name" type="text" id="input_2"></i></span>
+    <br>
+    <br>
+    <input type="checkbox" id="checkbox_input_2" class="left_2">
+    <label class="left_2" for="checkbox_input_2">Remember Me</label>
+    <br>
+    <br>
+    <br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button style="width: 30%;" class="btn btn-primary buttons" onclick="addUser()">Login</button>
+<img src="mountains.PNG" id="img2">
+</center>
+</body>
+<script src="main.js"></script>
+</html>

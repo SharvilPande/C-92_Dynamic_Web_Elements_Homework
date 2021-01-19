@@ -1,0 +1,105 @@
+#title {
+    border-bottom-style: dotted;
+    color: darkgreen;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-top-color:firebrick ;
+    border-bottom-color:firebrick ;
+    border-left-color:rgb(5, 4, 65) ;
+    border-right-color: rgb(5, 4, 65) ;
+    border-width: 4px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url(math_quiz.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#img2 {
+    height: 175px;
+    width: 1530px;
+    margin-top: 0px;
+}
+
+#title_banner{
+    width: 500px;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: -240;
+}
+
+.login_div1 , .login_div2 {
+    margin-top: 25px;
+    background-color: rgb(206, 143, 27);
+    border-style: ridge;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 75);
+}
+
+#logo{
+    height: 105px;
+    margin-left: 1310px;
+    margin-top: -190px;
+}
+
+.login_div1 {
+    margin-left: 210px;
+}
+
+.login_div2{
+    margin-left: 75px;
+}
+
+.inputs{
+    border-radius: 20px;
+    width: 250px;
+    border-color: rgb(0, 0, 75);
+    height: 25px;
+}
+
+.buttons{
+    border-radius: 20px;
+    background: linear-gradient(lightblue 50%, darkblue 100%);
+    margin-right: 14px;
+}
+
+.text_align{
+    text-align: left;
+    color: rgb(218, 16, 16);
+}
+
+.blue{
+    color: rgb(16, 99, 150);
+    text-decoration: underline;
+}
+
+.left{
+    margin-right: 224px;
+}
+
+.blink{
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#q_mark{
+    height: 150px;
+}
+
+.red{
+    color: rgb(9, 63, 9);
+}
+
+.left_2{
+    margin-right: 304px;
+}
+

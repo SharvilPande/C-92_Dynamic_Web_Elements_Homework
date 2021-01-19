@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Math Quiz</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="style_2.css">
+</head>
+<body>
+<h3 style="text-align: center; text-decoration: underline;">Scores:</h3>
+<h5><b id="vs" >VS</b></h5>
+<div id="p1"><h4 id="player1_name"><h4><h4 id="player1_score"></h4></div>
+<br>
+<div id="p2"><h4 id="player2_name"></h4><h4 id="player2_score"></h4></div>
+<center>
+<h1 style="color: white;">The Math Quiz Game!</h1>
+<br>
+<br>
+<h3 id="question_turn"></h3>
+<h3 id="answer_turn"></h3>
+<br>
+<br>
+<div id="questions"></div>
+<br>
+<br>
+<h4>Number 1</h4>
+<input class="form-control inputs" type="text" placeholder="Type Number 1 here" id="n1">
+<br>
+<h4>Number 2</h4>
+<input class="form-control inputs" type="text" placeholder="Type Number 2 here" id="n2">
+<br>
+<br>
+<button onclick="send()" id="button_send">Send</button>
+</center><img id="mountains" src="mountains.PNG">
+<script src="main.js"></script>
+<script src="main_2.js"></script>
+</body>
+</html>
